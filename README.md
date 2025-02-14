@@ -1,0 +1,2 @@
+# Stack Overflow Bug in JavaScript
+This repository demonstrates a common error in JavaScript involving stack overflow due to unbounded recursion. The file `bug.js` contains the buggy code.  The solution in `bugSolution.js` addresses the issue by adding a check to prevent excessive recursion.  The issue is caused by a recursive function that doesn't have a proper base case to stop the recursion for large inputs.
